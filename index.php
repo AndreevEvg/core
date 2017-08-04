@@ -1,6 +1,7 @@
 <?php
 
-echo "<h2>Ветка MASTER2</h2>";
+echo "Hello Mike";
+echo "<h2>Ветка MASTER</h2>";
 for($i = 0; $i < 20; $i++){
 	echo "Hello world <br>";
 }
