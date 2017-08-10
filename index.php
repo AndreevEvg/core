@@ -2,6 +2,8 @@
 
 echo "Hello";
 echo "Mike23";
+echo "John34";
+echo "Hello3";
 
 
 
