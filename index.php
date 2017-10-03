@@ -1,18 +1,14 @@
 <?php
 
-echo "Hello";
-echo "Mike23";
-echo "John34";
-echo "Hello3";
-echo "Hello4";
+$var1 = 100;
+$var2 = 200;
+
+if($var1 == 100 && $var2 == 200){
+	echo "YES";
+}
 
 
 
-
-
-
-
-//echo phpinfo();
 
 exit;
 
