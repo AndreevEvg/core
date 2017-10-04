@@ -8,7 +8,7 @@ for($i = 0; $i < 10; $i++){
 
 echo "<br>";
 
-for($i = 0; $i < 10; $i++){
+for($i = 0; $i < 15; $i++){
 	echo "Hello John!" . "<br>";
 }
 
