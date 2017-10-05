@@ -7,4 +7,3 @@ for($i = 0; $i < 20; $i++){
 }
 
 echo "HELLO JOHN";
-echo "HELLO MIKE";
