@@ -9,16 +9,18 @@ class NewsController
         $newsList = array();
         $newsList = News::getNewsList();
         
-        echo "<pre>";
-        print_r($newsList);
-        echo "</pre>";
+        $loader = new Twig_Loader_Filesystem('templates');
+        $twig = new Twig_Environment($loader);      
+        echo $twig->render(
+            'news.html.twig', array('newsList' => $newsList)
+        );
+
         return true;
     }
     
     public function actionView($category, $id)
     {
-        echo $category . "<br>";
-        echo $id . "<br>";
+        
         
         return true;
     }

@@ -1,9 +1,18 @@
 <?php
 
-echo "<h2>Ветка MASTER</h2>";
+// Общие настройки
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-for($i = 0; $i < 20; $i++){
-	echo "Hello World" . "<br>";
-}
+// Подключение файлов
+define('ROOT', dirname(__FILE__));
+require(ROOT.'/vendor/autoload.php');
+require_once(ROOT.'/components/Router.php');
 
-echo "HELLO JOHN";
+// Установка соединения с БД
+
+// Вызов Router
+$router = new Router();
+$router->run();
+
+      

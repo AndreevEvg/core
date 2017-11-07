@@ -9,7 +9,7 @@ class News
     
     public static function getNewsList()
     {
-        
+        return "Hello News!";
     }
 }
 
